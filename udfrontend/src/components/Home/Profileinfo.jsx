@@ -10,7 +10,7 @@ const Profileinfo = () => {
     const fetchProfile = async () => {
       const token = localStorage.getItem("access");
       try {
-        const response = await fetch("http://127.0.0.1:8000/api/user-profile/", {
+        const response = await fetch("https://minipro-519d.onrender.com/api/user-profile/", {
           method: "GET",
           headers: {
             "Authorization": `Bearer ${token}`,

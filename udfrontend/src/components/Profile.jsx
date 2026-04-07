@@ -9,7 +9,7 @@ const Profile = () => {
   const [myPosts, setMyPosts] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  const BASE_URL = "http://127.0.0.1:8000";
+  const BASE_URL = "https://minipro-519d.onrender.com";
   const token = localStorage.getItem("access");
 
   useEffect(() => {

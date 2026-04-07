@@ -51,7 +51,7 @@ function Signup() {
         data.append("profile_pic", formData.profile_pic);
       }
 
-      const response = await fetch("http://127.0.0.1:8000/api/signup/", {
+      const response = await fetch("https://minipro-519d.onrender.com/api/signup/", {
         method: "POST",
         body: data
       });

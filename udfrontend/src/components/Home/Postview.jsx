@@ -9,8 +9,8 @@ const Postview = () => {
   const [loading, setLoading] = useState(true);
 
   // ✅ Actual Local API Links
-  const API_URL = "http://127.0.0.1:8000/api/posts/";
-  const BASE_URL = "http://127.0.0.1:8000";
+  const API_URL = "https://minipro-519d.onrender.com/api/posts/";
+  const BASE_URL = "https://minipro-519d.onrender.com";
 
   // ❌ Dev Tunnel Links (Commented out)
   // const API_URL = "https://drshfwkr-8000.inc1.devtunnels.ms/api/posts/";
