@@ -43,9 +43,9 @@ const Postview = () => {
     imagePath = imagePath.trim();
 
     // If backend mistakenly sends localhost while you are testing different origins
-    // if (imagePath.includes("localhost:8000")) {
-    //   return imagePath.replace("http://localhost:8000", BASE_URL);
-    // }
+    if (imagePath.includes("localhost:8000")) {
+      return imagePath.replace("http://localhost:8000", BASE_URL);
+    }
 
     // Case 1: Already a full URL (starts with http)
     if (imagePath.startsWith("http")) {
