@@ -78,7 +78,7 @@ const Postview = () => {
   return (
     <div className="bg-[#f3f2ef] min-h-screen">
       {posts.map((post) => {
-        const imageUrl = getFullImageUrl(post.image);
+        const imageUrl = getFullImageUrl(post.image_url);
 
         return (
           <div
