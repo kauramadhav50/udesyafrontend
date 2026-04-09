@@ -28,7 +28,7 @@ const MobileSidebar = ({ open, setOpen }) => {
     localStorage.removeItem("refresh");
 
     // redirect to login page
-    window.location.href = "/login";
+    window.location.href = "/";
   }
 };
 
